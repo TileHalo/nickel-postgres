@@ -1,16 +1,12 @@
 [package]
-
+authors = ["bguiz"]
 name = "nickel_postgres"
 version = "0.0.0"
-authors = [
-    "bguiz"
-]
 
 [dependencies]
-postgres = "*"
-r2d2 = "*"
-r2d2_postgres = "*"
-plugin = "*"
-typemap = "*"
-openssl = "*"
-nickel = "*"
+nickel = "0.7.3"
+plugin = "0.2.6"
+postgres = "0.10.2"
+r2d2 = "0.6.1"
+r2d2_postgres = "0.9.3"
+typemap = "0.3.3"
